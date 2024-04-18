@@ -1,3 +1,7 @@
 HERE I WILL UPDATE EVERYTHING I NEED TO CATCH UP IN THE NEXT DAY FOR THE PROJECT
 
 
+Done with the general overview of the PROJECT
+Added a view task to get the specific Task and a url /str:pk to hold the specific room id
+Great Progress
+Next is Databases
