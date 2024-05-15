@@ -3,7 +3,7 @@
 <div>
     {% for task in tasks %}
         <div>
-            <h4>{{task.id}}--  <a href="{% url 'task' task.id %}">{{task.name}}</a></h4> <small>{{task.Date}}</small>
+            <h4>{{task.id}}--  <a href="{% url 'task' task.id %}">{{task.title}}</a></h4> <small>created on {{task.date_created}}</small>
             <hr>
         </div>
 
