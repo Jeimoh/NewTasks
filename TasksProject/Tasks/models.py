@@ -18,5 +18,9 @@ class Collaboration(models.Model):
     task = models.ForeignKey(Task, on_delete = models.CASCADE,null = True,)
     date_created = models.DateTimeField(auto_now_add = True)
     date_due = models.DateTimeField()
+
+    def __str__(self):
+        return self.task
+    
      
     

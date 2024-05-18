@@ -1,13 +1,10 @@
 {% include 'navbar.html' %}
 
 <div>
-    {% if task %}
         <hr>
-            <h3>Task {{task.id}} >> {{task.name}}</h3>
+            <h3>Task {{task.id}} >> {{task.title}}</h3>
              
             <small>Task due on {{task.date_due}}</small>
+            <a href="{% url 'updateTask' task.id%}">Update </a>
         <hr>
-    {% else %}
-        <h3>Task Does Not Exist</h3>
-    {% endif %}
 </div>
